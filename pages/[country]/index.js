@@ -7,7 +7,7 @@ import {
 
 const CountryItem = () => {
   const { t } = useTranslation();
-  // const router = useRouter();
+  const router = useRouter();
   const [queryx] = useLanguageQuery();
   const { country } = router.query;
   console.log('query', queryx);
@@ -32,8 +32,8 @@ const CountryItem = () => {
 
   return (
     <>
-      <button onClick={changeLanguage('tr')}>TR</button>
-      <button onClick={changeLanguage('en')}>EN</button>
+      {/* <button onClick={changeLanguage('tr')}>TR</button>
+      <button onClick={changeLanguage('en')}>EN</button> */}
       <LanguageSwitcher lang="tr">tr</LanguageSwitcher> |
       <LanguageSwitcher lang="en">en</LanguageSwitcher>
       <h2>
