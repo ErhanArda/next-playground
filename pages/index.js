@@ -6,6 +6,7 @@ import {
   LanguageSwitcher,
   useLanguageQuery,
 } from 'next-export-i18n';
+import { Button } from '@ErhanArda/component-library';
 
 const cityList = [
   {
@@ -44,6 +45,7 @@ const Index = () => {
           <a>{t('aboutApp')}</a>
         </Link>
       </div>
+      <Button label="Navlungo"></Button>
       <LanguageSwitcher lang="tr">tr</LanguageSwitcher> |
       <LanguageSwitcher lang="en">en</LanguageSwitcher>
       <hr />

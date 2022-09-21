@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@ErhanArda/component-library": "0.0.2",
     "next": "9.4.4",
     "next-export-i18n": "^2.0.3",
     "react": "16.13.1",
