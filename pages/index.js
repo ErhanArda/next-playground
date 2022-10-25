@@ -45,7 +45,7 @@ const Index = () => {
           <a>{t('aboutApp')}</a>
         </Link>
       </div>
-      <Button label="Selam Deniz!!"></Button>
+      <Button label="Selam Deniz!!" backgroundColor="blue"></Button>
       <LanguageSwitcher lang="tr">tr</LanguageSwitcher> |
       <LanguageSwitcher lang="en">en</LanguageSwitcher>
       <hr />
