@@ -8,10 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
-    "@ErhanArda/component-library": "0.0.4",
-    "next": "9.4.4",
+    "@navlungo/nui-elements": "0.1.0-beta.6",
+    "next": "12.3.1",
     "next-export-i18n": "^2.0.3",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/navlungo"
   }
 }
