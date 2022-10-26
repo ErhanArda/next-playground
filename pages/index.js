@@ -6,7 +6,8 @@ import {
   LanguageSwitcher,
   useLanguageQuery,
 } from 'next-export-i18n';
-import { Button } from '@navlungo/nui-elements';
+// import { Button } from '@navlungo/nui-elements';
+import { Button } from '@navlungo/nui-components';
 
 const cityList = [
   {
@@ -45,7 +46,7 @@ const Index = () => {
           <a>{t('aboutApp')}</a>
         </Link>
       </div>
-      <Button label="Selam Deniz!!" backgroundColor="blue"></Button>
+      <Button label="Selam Deniz!!" backgroundColor="green"></Button>
       <LanguageSwitcher lang="tr">tr</LanguageSwitcher> |
       <LanguageSwitcher lang="en">en</LanguageSwitcher>
       <hr />
